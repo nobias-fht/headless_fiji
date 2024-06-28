@@ -23,4 +23,4 @@ This repository demonstrates how to download, update and run a Fiji script in he
    ``` console
    myfiji/Fiji.app/ImageJ-linux64 --ij2 --headless --run  macro.ijm 'output=""'
    ```
-   Here output can be an absolute or relative path, always between quotation marks: `"example/path/to/folder"`.
+   Here output can be an absolute or relative path, always between quotation marks: `'output="example/path/to/folder"'`.
