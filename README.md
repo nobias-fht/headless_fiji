@@ -14,6 +14,7 @@ This repository demonstrates how to download, update and run a Fiji script in he
        "Labkit": "Labkit"
    }
    ```
+   The first entry (`key`) is the name of the update site, the second (`value`) is the path in the update site. So if in the `add update site` window of Fiji, the name of the site is `Foo` and the update site is `https://sites.imagej.net/bar`, then enter `"Foo": "bar"`.
 3. Run the update script:
    ``` console
    sh update_fiji.sh --fiji myfiji/Fiji.app/ --sites sites.json
