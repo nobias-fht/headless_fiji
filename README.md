@@ -1,6 +1,6 @@
 # Headless Fiji
 
-This repository demonstrates how to download, update and run a Fiji script in headless mode, as proof of principle to deploy to the users of the image analysis facility our scripts. This was developed and tested on a Linux machine.
+This repository demonstrates how to download, update and run a Fiji script in headless mode, as proof of principle to deploy our scripts to the users of the image analysis facility. This was developed and tested on a Linux machine.
 
 
 1. Run the download script to get a fresh Fiji install:
